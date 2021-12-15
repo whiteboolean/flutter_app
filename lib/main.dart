@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // final wordPair  = WordPair.random() ;
     return   MaterialApp(
-      title: "欢迎来到德莱联盟",
+      title: "欢迎来到德莱联盟12",
       theme: ThemeData(primaryColor: Colors.white),
       home: RandomWords(),
     );
@@ -100,7 +100,6 @@ class _RandomWordsState extends State<RandomWords> {
     // return Text(wordPair.asPascalCase);
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red,
         title: const Text("欢迎来到德莱联盟"),
         iconTheme: const IconThemeData(color: Colors.white),
         actions: <Widget>[
